@@ -9,11 +9,11 @@ app.get("/", (req, res) => {
 
 app.get("/status", (req, res) => {
   res.json({
-    bot: "Bot User",
+    bot: "Usuário Bot",
     status: "online"
   });
 });
 
 app.listen(PORT, () => {
-  console.log(`Bot User iniciado na porta ${PORT}`);
+  console.log(`Usuário bot iniciado na porta ${PORT}`);
 });
